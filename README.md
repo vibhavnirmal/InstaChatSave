@@ -9,7 +9,7 @@ Then open the messages.py file and enter the username of the person.
 
 All the chats will be saved as .txt file in that folder.
 
-If you Find anything to improved Please Let me know.
+If you Find anything to be improved, Please Let me know.
 
 Dont Copy the idea or dont directy use it elsewhere without giving Credits.
 
