@@ -45,4 +45,6 @@ for i in range(100):
                          +media["conversation"][i]["created_at"][11:19]+"\n\n")
             else:
                 pass
+
+input("Enter Any Key to Continue")
         
