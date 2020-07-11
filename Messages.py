@@ -1,21 +1,16 @@
 import sys
 import json
 #non_bmp_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
-
 f = open("messages.json","r", encoding="utf8")
-
 username=input("Enter the username\n")
-
 filename=username+".txt"
-
 f1 = open(filename,'w', encoding="utf8")
+myList=f.readlines()
+theString = myList[0]
 
-list=f.readlines()
-str = list[0]
+loaded = json.loads(theString)
 
-loaded = json.loads(str)
-
-f1.write("All the Chats With "+username+" are as follows\n")
+f1.write("All the Chats with "+username+" are as follows\n")
 
 for i in range(100):
     media = loaded[i]
