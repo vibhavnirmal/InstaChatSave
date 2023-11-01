@@ -2,7 +2,7 @@ import sys
 import json
 #non_bmp_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 f = open("messages.json","r", encoding="utf8")
-username=input("Enter the username\n")
+mattstainrod=input("Enter the username\n")
 filename=username+".txt"
 f1 = open(filename,'w', encoding="utf8")
 myList=f.readlines()
